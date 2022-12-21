@@ -15,6 +15,6 @@ chmod a+x .husky/commit-msg
 
 touch commitlint.config.js
     module.exports = {
-    extends: ["@commitlint/config-conventional"],
-};
+        extends: ["@commitlint/config-conventional"],
+    };
 ```
